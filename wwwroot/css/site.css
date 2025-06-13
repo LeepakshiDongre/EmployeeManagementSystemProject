@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* Custom Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Change navbar background */
+.navbar {
+    background-color: #004080 !important;
+}
+
+    /* Ensure nav links are white, but don't affect icons */
+    .navbar .nav-link {
+        color: white !important;
+        display: flex;
+        align-items: center;
+        gap: 4px; /* adds spacing between icon and text */
+    }
+/* Light Blue Navbar Background */
+.navbar {
+    background-color: #007BFF !important; /* Bootstrap's primary blue */
+}
+
+    /* White text for nav links and brand name */
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: white !important;
+    }
+
+        /* Optional: Hover effect for nav links */
+        .navbar .nav-link:hover {
+            color: #FFD700 !important; /* Gold on hover */
+        }
