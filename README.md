@@ -88,3 +88,10 @@ Edit
 - **Password**: 123  
 
 
+## 📁 Documentation
+
+This repository includes:
+
+- `README.md` (this file)  
+- Project source code 
+
